@@ -1,0 +1,44 @@
+.flexbox__container {
+  position: relative;
+  display: block;
+  margin: 1rem;
+  width: 65%;
+  height: auto;
+  overflow: hidden;
+}
+@media (max-width: 900px) {
+  .flexbox__container {
+    width: 90%;
+    margin: 1rem auto;
+  }
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.flexbox__item1,
+.flexbox__item2,
+.flexbox__item3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding: 2rem;
+  color: #1d457f;
+  background: #f0f0f0;
+  border-radius: 1rem;
+}
+
+.flexbox__item2 {
+  flex-basis: 100%;
+}
+
+.flexbox_h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1d457f;
+}

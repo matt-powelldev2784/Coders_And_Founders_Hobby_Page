@@ -2,68 +2,87 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Title</title>
+    <title>About Rob Beckett Comedian</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700:900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
       rel="stylesheet"
     />
     <link href="stylesheets/main.css" rel="stylesheet" />
+    <link href="stylesheets/header.css" rel="stylesheet" />
+    <link href="stylesheets/flexbox.css" rel="stylesheet" />
+    <link href="stylesheets/tourdates.css" rel="stylesheet" />
+    <script type="module" src="./js/main.js"></script>
   </head>
   <body>
     <!--............................................-->
-    <header>
+    <!--............................................-->
+    <header class="header__container">
       <img
         src="img/RobBecket.png"
         alt="Rob Becket Profile Image"
         class="profile__img"
       />
 
-      <hgroup>
+      <hgroup class="header__flexbox">
         <h1 class="title_h1">ROB BECKETT</h1>
+        <img
+          src="img/rob_head.png"
+          alt="Rob Becket Profile Image"
+          class="profile__img_small"
+        />
       </hgroup>
     </header>
     <!--............................................-->
     <!--............................................-->
-    <!--............................................-->
     <section class="flexbox__container">
+      <!--............................................-->
+      <!--............................................-->
       <div class="flexbox">
+        <!--............................................-->
+        <!--............................................-->
         <article class="flexbox__item1">
           <header>
-            <h2>Subheader</h2>
+            <h2 class="flexbox_h2">ABOUT ROB BECKETT</h2>
           </header>
-          orem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum
+          Rob started performing stand-up in 2009 and quickly enjoyed success in
+          all of the new comedian competitions winning 4 competitions in his
+          first year. Consistently impressive performances in these
+          competitions, culminated in Rob finishing as a runner up in So You
+          Think You’re Funny and winning the Amused Moose Laugh Off which earned
+          him an invite to perform at Comedy festivals in Australia. At this
+          festival in Adelaide Rob was nominated for the best newcomer award. He
+          made his debut at the Edinburgh Fringe Festival in 2012 with his solo
+          show Rob Beckett’s Summer Holiday.
         </article>
+        <!--............................................-->
+        <!--............................................-->
         <article class="flexbox__item2">
           <header>
-            <h2>Subheader</h2>
+            <h2 class="flexbox_h2">NEXT 5 TOUR DATES</h2>
           </header>
-          orem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
+          <div id="five_recent_tours" class="tours_container">
+            <ol id="tours_container__ol" class="tours_container__ol"></ol>
+          </div>
         </article>
+        <!--............................................-->
+        <!--............................................-->
         <article class="flexbox__item3">
           <header>
-            <h2>Subheader</h2>
+            <h2 class="flexbox_h2">Subheader</h2>
           </header>
           It was popularised in the 1960s with the release of Letraset sheets
           containing Lorem Ipsum passages, and more recently with desktop
           publishing software like Aldus PageMaker including versions of Lorem
           Ipsum
         </article>
+        <!--............................................-->
+        <!--............................................-->
       </div>
+      <!--............................................-->
+      <!--............................................-->
     </section>
-    <!--............................................-->
     <!--............................................-->
     <!--............................................-->
 

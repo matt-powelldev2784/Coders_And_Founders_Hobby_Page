@@ -1,0 +1,32 @@
+.tours_container__ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tours_container__li {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+}
+
+.tours_container__ol__li___tour_date {
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.tours_container__ol__li__place_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.tours_container__ol__li___tour_date,
+.tours_container__ol__li__tour_city,
+.tours_container__ol__li__tour_venue {
+  padding: 0.5rem;
+}
