@@ -11,8 +11,10 @@
     />
     <link href="stylesheets/main.css" rel="stylesheet" />
     <link href="stylesheets/header.css" rel="stylesheet" />
-    <link href="stylesheets/flexbox.css" rel="stylesheet" />
-    <link href="stylesheets/tourdates.css" rel="stylesheet" />
+    <link href="stylesheets/primary_flexbox.css" rel="stylesheet" />
+    <link href="stylesheets/secondary_flexbox.css" rel="stylesheet" />
+    <link href="stylesheets/tour_dates.css" rel="stylesheet" />
+    <link href="stylesheets/aside.css" rel="stylesheet" />
     <script type="module" src="./js/main.js"></script>
   </head>
   <body>
@@ -34,17 +36,15 @@
         />
       </hgroup>
     </header>
+
     <!--............................................-->
     <!--............................................-->
-    <section class="flexbox__container">
-      <!--............................................-->
-      <!--............................................-->
-      <div class="flexbox">
-        <!--............................................-->
-        <!--............................................-->
-        <article class="flexbox__item1">
+
+    <section class="primary_flexbox__container">
+      <div class="primary_flexbox">
+        <article class="primary_flexbox__item1">
           <header>
-            <h2 class="flexbox_h2">ABOUT ROB BECKETT</h2>
+            <h2 class="primary_flexbox__h2">ABOUT ROB BECKETT</h2>
           </header>
           Rob started performing stand-up in 2009 and quickly enjoyed success in
           all of the new comedian competitions winning 4 competitions in his
@@ -56,33 +56,39 @@
           made his debut at the Edinburgh Fringe Festival in 2012 with his solo
           show Rob Beckett’s Summer Holiday.
         </article>
-        <!--............................................-->
-        <!--............................................-->
-        <article class="flexbox__item2">
+      </div>
+    </section>
+
+    <!--............................................-->
+    <!--............................................-->
+
+    <section class="secondary_flexbox__container">
+      <div class="secondary_flexbox">
+        <article class="secondary_flexbox__item1">
           <header>
-            <h2 class="flexbox_h2">NEXT 5 TOUR DATES</h2>
+            <h2 class="secondary_flexbox__h2">NEXT 5 TOUR DATES</h2>
           </header>
-          <div id="five_recent_tours" class="tours_container">
+          <div class="tours_container">
             <ol id="tours_container__ol" class="tours_container__ol"></ol>
           </div>
         </article>
-        <!--............................................-->
-        <!--............................................-->
-        <article class="flexbox__item3">
+
+        <aside class="secondary_flexbox__item2">
           <header>
-            <h2 class="flexbox_h2">Subheader</h2>
+            <h2 class="secondary_flexbox__h2">Subheader</h2>
           </header>
+          <img
+            src="img/rob_head.png"
+            alt="Rob Becket Profile Image"
+            class="secondary_flexbox__img"
+          />
           It was popularised in the 1960s with the release of Letraset sheets
           containing Lorem Ipsum passages, and more recently with desktop
-          publishing software like Aldus PageMaker including versions of Lorem
-          Ipsum
-        </article>
-        <!--............................................-->
-        <!--............................................-->
+          publishing software.
+        </aside>
       </div>
-      <!--............................................-->
-      <!--............................................-->
     </section>
+
     <!--............................................-->
     <!--............................................-->
 
