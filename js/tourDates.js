@@ -38,7 +38,7 @@ export const tourInfo = [
   {
     key: 6,
     date: '28 Nov 2022',
-    city: 'Brisbane',
+    city: 'BRISBANE',
     venue: 'The Tivoli',
   },
   {
@@ -80,13 +80,13 @@ export const tourInfo = [
   {
     key: 14,
     date: '30 Jan 2023',
-    city: 'Barnard Castle',
+    city: 'BARNASRD CASTLE',
     venue: 'The Witham',
   },
   {
     key: 15,
     date: '31 Jan 2023',
-    city: 'Hexham',
+    city: 'HEXHAM',
     venue: 'Queen/’s Hall Arts Centre',
   },
   {
