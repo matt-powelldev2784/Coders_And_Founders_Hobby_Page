@@ -1,7 +1,7 @@
 .primary_flexbox__container {
   position: relative;
   display: block;
-  margin: 1rem;
+  margin: 0 1rem;
   width: 65%;
   height: auto;
   overflow: hidden;
@@ -32,7 +32,8 @@
 }
 
 .primary_flexbox__h2 {
-  font-size: min(calc(1.4vw + 1rem), 2rem);
+  flex-grow: 1;
+  font-size: min(calc(3.5vw + 1rem), 2rem);
   font-weight: 700;
   color: #1d457f;
   margin: 0.5rem auto;

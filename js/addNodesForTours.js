@@ -20,7 +20,7 @@ export const toggleNodesForTours = (tours) => {
 
     //create city and venue container node
     const placeConatiner = document.createElement('div')
-    placeConatiner.classList.add('tours_place__container')
+    placeConatiner.classList.add('tours_place__flexbox')
     listItem.appendChild(placeConatiner)
 
     //create city node

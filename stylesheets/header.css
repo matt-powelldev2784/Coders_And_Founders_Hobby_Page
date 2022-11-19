@@ -28,11 +28,11 @@
 }
 
 .profile__img {
-  position: absolute;
+  position: fixed;
   display: block;
   top: 0;
   right: 1vw;
-  width: calc(35vw + 2rem);
+  width: calc(28vw + 2rem);
   height: auto;
 }
 @media (max-width: 900px) {

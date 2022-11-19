@@ -15,6 +15,7 @@
     <link href="stylesheets/secondary_flexbox.css" rel="stylesheet" />
     <link href="stylesheets/tour_dates.css" rel="stylesheet" />
     <link href="stylesheets/aside.css" rel="stylesheet" />
+    <link href="stylesheets/footer.css" rel="stylesheet" />
     <script type="module" src="./js/main.js"></script>
   </head>
   <body>
@@ -23,7 +24,7 @@
     <header class="header__container">
       <img
         src="img/RobBecket.png"
-        alt="Rob Becket Profile Image"
+        alt="Rob Becket Full Profile Image"
         class="profile__img"
       />
 
@@ -31,7 +32,7 @@
         <h1 class="title_h1">ROB BECKETT</h1>
         <img
           src="img/rob_head.png"
-          alt="Rob Becket Profile Image"
+          alt="Rob Beckett Head Profile Image"
           class="profile__img_small"
         />
       </hgroup>
@@ -66,9 +67,9 @@
       <div class="secondary_flexbox">
         <article class="secondary_flexbox__item1">
           <header>
-            <div class="secondary_flexbox_header__wrapper">
-              <h2 class="secondary_flexbox__h2">NEXT 5 TOUR DATES</h2>
-              <button class="btn_toggleTourInfo">View Full Tour</button>
+            <div class="tours__wrapper">
+              <h2 class="tours__h2">NEXT 5 TOUR DATES</h2>
+              <button class="tours__btn_toggleTourInfo">View All Tours</button>
             </div>
           </header>
           <div class="tours_container">
@@ -76,50 +77,43 @@
           </div>
         </article>
 
-        <aside class="secondary_flexbox__item2">
-          <header>
-            <h2 class="secondary_flexbox__h2">Subheader</h2>
-          </header>
-          <img
-            src="img/rob_head.png"
-            alt="Rob Becket Profile Image"
-            class="secondary_flexbox__img"
-          />
-          It was popularised in the 1960s with the release of Letraset sheets
-          containing Lorem Ipsum passages, and more recently with desktop
-          publishing software.
-        </aside>
+        <section class="secondary_flexbox__item2">
+          <aside class="aside_flexbox">
+            <header>
+              <h2 class="secondary_flexbox__h2">PARENTING HELL LIVE TICKETS</h2>
+            </header>
+            <img
+              src="img/parenting_hell_live.jpg"
+              alt="Parenting Hell Live Banner"
+              class="aside__img"
+            />
+            <p class="aside__text">
+              Building on the success of their hilariously candid podcast
+              Parenting Hell, revealing the highs and lows of being a parent,
+              comedians Rob Beckett and Josh Widdicombe have announced a live
+              version in Spring 2023. The duo will visit the AO Arena,
+              Manchester on Friday 14 April and The O2, London, on Thursday 21
+              April.
+            </p>
+
+            <a
+              href="https://www.ticketmaster.co.uk/parenting-hell-live-tickets/artist/5372559"
+              class="aside__link"
+            >
+              <button class="aside__btn">Click here to buy tickets</button>
+            </a>
+          </aside>
+        </section>
       </div>
     </section>
 
     <!--............................................-->
     <!--............................................-->
-
-    <nav>
-      <ul>
-        <li><a href="#">Menu Option 1</a></li>
-        <li><a href="#">Menu Option 2</a></li>
-      </ul>
-    </nav>
-
-    <aside>
-      <section>
-        <h1>Links</h1>
-        <ul>
-          <li><a href="#">Link 1</a></li>
-          <li><a href="#">Link 2</a></li>
-        </ul>
-      </section>
-      <figure>
-        <img
-          width="85"
-          height="85"
-          src="http://domain.tld/path/to/image.jpg"
-          alt="foobar"
-        />
-        <figcaption>Foobar</figcaption>
-      </figure>
-    </aside>
-    <footer>Footer</footer>
+    <footer class="footer">
+      <div class="footer__flexbox">
+        <p class="footer__date">1 Jan 0000</p>
+        <p class="footer__author">Designed by Matthew Powell</p>
+      </div>
+    </footer>
   </body>
 </html>

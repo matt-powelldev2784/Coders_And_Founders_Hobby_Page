@@ -42,7 +42,7 @@
   flex-grow: 2;
 }
 
-.secondary_flexbox_header__wrapper {
+.tours__wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -50,18 +50,22 @@
   align-items: center;
 }
 
-.secondary_flexbox__h2 {
+.tours__h2 {
   flex-grow: 1;
-  font-size: min(calc(1.4vw + 1rem), 2rem);
+  font-size: min(calc(3.5vw + 1rem), 2rem);
   font-weight: 700;
   color: #1d457f;
   margin: 0.5rem auto;
 }
 
-.btn_toggleTourInfo {
+.tours__btn_toggleTourInfo {
   padding: 0.25em;
-  width: 8rem;
-  height: 2rem;
+  width: calc(2vw + 9rem);
+  height: 1.8rem;
   border-radius: 10px;
-  border: 2px solid black;
+  border: 0;
+  background: #3b83ba;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
 }

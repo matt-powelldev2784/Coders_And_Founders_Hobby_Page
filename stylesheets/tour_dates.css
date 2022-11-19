@@ -29,7 +29,7 @@
   padding: 0.5rem;
 }
 
-.tours_place__container {
+.tours_place__flexbox {
   width: 70%;
   display: flex;
   flex-direction: row;
