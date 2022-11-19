@@ -23,7 +23,7 @@
 }
 
 .primary_flexbox__item1 {
-  font-size: 1.3rem;
+  font-size: min(calc(1vw + 0.8rem), 1.3rem);
   font-weight: 400;
   padding: 1.5rem;
   color: #1d457f;
@@ -32,7 +32,7 @@
 }
 
 .primary_flexbox__h2 {
-  font-size: 3rem;
+  font-size: min(calc(1.4vw + 1rem), 2rem);
   font-weight: 700;
   color: #1d457f;
   margin: 0.5rem auto;

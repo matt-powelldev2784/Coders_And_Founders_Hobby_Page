@@ -1,4 +1,8 @@
 import { nextFiveTourDates } from './getFiveRecentTours.js'
-import { addNodesForTours } from './addNodesForTours.js'
+import { toggleNodesForTours } from './addNodesForTours.js'
+import { toogleTourInfo } from './toggleTours.js'
 
-addNodesForTours(nextFiveTourDates)
+toggleNodesForTours(nextFiveTourDates)
+
+const toggleTourInfoBtn = document.querySelector('.btn_toggleTourInfo')
+toggleTourInfoBtn.addEventListener('click', toogleTourInfo)

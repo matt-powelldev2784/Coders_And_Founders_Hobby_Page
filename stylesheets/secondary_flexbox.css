@@ -42,9 +42,26 @@
   flex-grow: 2;
 }
 
+.secondary_flexbox_header__wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .secondary_flexbox__h2 {
-  font-size: 2rem;
+  flex-grow: 1;
+  font-size: min(calc(1.4vw + 1rem), 2rem);
   font-weight: 700;
   color: #1d457f;
   margin: 0.5rem auto;
+}
+
+.btn_toggleTourInfo {
+  padding: 0.25em;
+  width: 8rem;
+  height: 2rem;
+  border-radius: 10px;
+  border: 2px solid black;
 }
