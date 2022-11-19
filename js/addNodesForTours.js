@@ -1,9 +1,11 @@
 export const toggleNodesForTours = (tours) => {
+  //remove old tour list dom nodes
   const toursContainer = document.getElementById('tours_container__ol')
   while (toursContainer.firstChild) {
     toursContainer.removeChild(toursContainer.firstChild)
   }
 
+  //add updated tour list dom nodes
   tours.forEach((tourInfo) => {
     //create list item node
     const listItem = document.createElement('li')
