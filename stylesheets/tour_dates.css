@@ -28,6 +28,11 @@
   text-decoration: underline;
   padding: 0.5rem;
 }
+@media only screen and (max-width: 451px) {
+  .tours__tour_date {
+    font-size: 0.9rem;
+  }
+}
 
 .tours_place__flexbox {
   width: 70%;
@@ -41,11 +46,22 @@
 .tours_place__city {
   font-size: min(calc(1vw + 0.5rem), 1.2rem);
   padding: 0.5rem;
-  width: 40%;
+  text-align: center;
+}
+@media only screen and (max-width: 451px) {
+  .tours_place__city {
+    font-size: 0.9rem;
+  }
 }
 
 .tours_place__tour_venue {
   font-size: min(calc(1vw + 0.5rem), 1.2rem);
   padding: 0.5rem;
   flex-grow: 1;
+  text-align: center;
+}
+@media only screen and (max-width: 451px) {
+  .tours_place__tour_venue {
+    font-size: 0.9rem;
+  }
 }

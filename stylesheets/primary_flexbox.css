@@ -6,10 +6,16 @@
   height: auto;
   overflow: hidden;
 }
-@media (max-width: 900px) {
+@media (max-width: 992px) {
   .primary_flexbox__container {
     width: 90%;
     margin: 1rem auto;
+  }
+}
+@media only screen and (max-width: 451px) {
+  .primary_flexbox__container {
+    width: 92%;
+    margin: 0.5rem 1rem 1rem 1rem;
   }
 }
 
@@ -30,11 +36,36 @@
   background: #f0f0f0;
   border-radius: 1rem;
 }
+@media only screen and (max-width: 451px) {
+  .primary_flexbox__item1 {
+    padding: 1rem;
+  }
+}
 
 .primary_flexbox__h2 {
   flex-grow: 1;
   font-size: min(calc(3.5vw + 1rem), 2rem);
   font-weight: 700;
   color: #1d457f;
-  margin: 0.5rem auto;
+}
+@media only screen and (max-width: 451px) {
+  .primary_flexbox__h2 {
+    padding: 0rem;
+    margin: 0rem;
+    font-size: min(calc(1.5vw + 1rem), 1.2rem);
+    text-align: center;
+  }
+}
+
+.primary_flexbox__p {
+  margin: 0.5rem 0rem 0rem 0rem;
+  font-size: min(calc(1vw + 0.8rem), 1.3rem);
+  text-align: justify;
+  text-justify: auto;
+}
+@media only screen and (max-width: 451px) {
+  .primary_flexbox__p {
+    margin: 0.5rem 0.5rem;
+    font-size: 1rem;
+  }
 }
