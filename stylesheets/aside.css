@@ -19,11 +19,13 @@
   margin: 0.5rem 0rem;
 }
 
-.aside__text {
+.aside__p {
   margin: 1rem 0rem;
+  text-align: justify;
+  text-justify: auto;
 }
 @media only screen and (max-width: 451px) {
-  .aside__text {
+  .aside__p {
     margin: 0.5rem 0.5rem;
     font-size: 1rem;
   }
@@ -40,7 +42,7 @@
 
 .aside__btn {
   width: calc(4vw + 12rem);
-  height: 1.8rem;
+  height: 2rem;
   padding: 0.25em;
   border-radius: 10px;
   border: 0;
