@@ -87,7 +87,7 @@ export const tourInfo = [
     key: 15,
     date: '31 Jan 2023',
     city: 'HEXHAM',
-    venue: 'Queen/’s Hall Arts Centre',
+    venue: 'Queen’s Hall Arts Centre',
   },
   {
     key: 16,
