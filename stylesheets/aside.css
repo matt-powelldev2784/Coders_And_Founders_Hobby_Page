@@ -1,15 +1,10 @@
 .aside__h2 {
   flex-grow: 1;
-  font-size: min(calc(3.5vw + 1rem), 2rem);
+  font-size: clamp(1.2rem, calc(3.5vw + 1rem), 2rem);
   font-weight: 700;
   text-align: center;
   color: #1d457f;
   margin: 0.5rem auto;
-}
-@media only screen and (max-width: 451px) {
-  .aside__h2 {
-    font-size: min(calc(1.5vw + 1rem), 1.2rem);
-  }
 }
 
 .aside__img {
@@ -20,14 +15,14 @@
 }
 
 .aside__p {
+  font-size: clamp(1rem, calc(1vw + 0.8rem), 1.3rem);
   margin: 1rem 0rem;
   text-align: justify;
   text-justify: auto;
 }
 @media only screen and (max-width: 451px) {
   .aside__p {
-    margin: 0.5rem 0.5rem;
-    font-size: 1rem;
+    margin: 0.5rem 0rem;
   }
 }
 
