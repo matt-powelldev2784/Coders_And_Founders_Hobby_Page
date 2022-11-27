@@ -1,3 +1,4 @@
+'use strict'
 import { tourInfo } from './tourDates.js'
 
 const getNextFiveTourDates = (tourInfo) => {

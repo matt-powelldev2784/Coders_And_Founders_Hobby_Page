@@ -1,3 +1,4 @@
+'use strict'
 export const toggleNodesForTours = (tours) => {
   //remove old tour list dom nodes
   const toursContainer = document.getElementById('tours_container__ol')

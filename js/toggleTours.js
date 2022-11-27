@@ -1,3 +1,4 @@
+'use strict'
 import { tourInfo } from './tourDates.js'
 import { nextFiveTourDates } from './getFiveRecentTours.js'
 import { toggleNodesForTours } from './addNodesForTours.js'
