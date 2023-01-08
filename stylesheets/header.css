@@ -35,6 +35,7 @@
     height: clamp(14rem, 100vw, 40rem);
     width: auto;
     margin-right: 0;
+    margin-bottom: 3rem;
   }
 }
 
