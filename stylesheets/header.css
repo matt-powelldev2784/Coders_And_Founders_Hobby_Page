@@ -1,11 +1,40 @@
 .header__container {
-  width: 65%;
-  margin: 0rem 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1vw;
+  min-height: 100vh;
+  width: 100%;
 }
 @media (max-width: 992px) {
   .header__container {
-    width: 100%;
-    margin: 0 0 0.5rem 0;
+    flex-direction: row;
+    gap: 0;
+  }
+}
+
+.profile__img {
+  position: relative;
+  display: block;
+  top: 0;
+  width: clamp(18rem, 32vw, 30rem);
+  height: auto;
+  margin-right: 8vw;
+}
+@media (max-width: 992px) {
+  .profile__img {
+    height: clamp(14rem, 65vh, 40rem);
+    width: auto;
+    margin-right: 0;
+  }
+}
+@media (max-width: 451px) {
+  .profile__img {
+    height: clamp(14rem, 100vw, 40rem);
+    width: auto;
+    margin-right: 0;
   }
 }
 
@@ -15,14 +44,13 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
-  padding: 1rem;
+  margin: 2rem auto;
+  min-width: 320px;
 }
 @media (max-width: 992px) {
   .header__flexbox {
     width: 100%;
     margin: 0rem auto;
-    padding: 0.5rem;
   }
 }
 
@@ -30,18 +58,13 @@
   display: inline-block;
   width: 100%;
   font-weight: 900;
-  font-size: calc(5vw + 2rem);
+  font-size: clamp(5rem, 5vw, 6.5rem);
   text-align: center;
   color: white;
 }
 @media (max-width: 992px) {
   .title__h1 {
-    font-size: calc(5vw + 2rem);
-  }
-}
-@media (max-width: 451px) {
-  .title__h1 {
-    font-size: calc(2vw + 2.5rem);
+    font-size: clamp(2.5rem, 9vw, 10rem);
   }
 }
 
@@ -65,47 +88,10 @@
   color: white;
   text-align: center;
   padding: 0 1rem;
-  font-size: calc(2vw + 0.5rem);
+  font-size: clamp(1.2rem, 2.5vw, 5rem);
 }
 @media (max-width: 451px) {
   .title__h2 {
-    font-size: max(calc(1vw + 0.5rem), 0.8rem);
-  }
-}
-
-.profile__img {
-  position: fixed;
-  display: block;
-  top: 0;
-  right: 1vw;
-  width: calc(28vw + 2rem);
-  height: auto;
-}
-@media (max-width: 992px) {
-  .profile__img {
-    display: none;
-  }
-}
-@media screen and (max-width: 451px) {
-  .profile__img {
-    display: none;
-  }
-}
-
-.profile__img_small {
-  height: 0;
-  width: 0;
-  margin: 0.4rem 0 0 0;
-}
-@media (max-width: 992px) {
-  .profile__img_small {
-    width: auto;
-    height: 5.5rem;
-  }
-}
-@media (max-width: 451px) {
-  .profile__img_small {
-    width: auto;
-    height: 5.5rem;
+    font-size: clamp(0.9rem, 1vw, 5rem);
   }
 }
