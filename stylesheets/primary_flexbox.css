@@ -44,7 +44,8 @@
 
 .primary_flexbox__p {
   margin: 0.5rem 0rem 0rem 0rem;
-  font-size: clamp(1rem, calc(1vw + 0.8rem), 1.3rem);
+  font-size: 1.1rem;
+  font-weight: 400;
   text-align: justify;
   text-justify: auto;
 }

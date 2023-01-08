@@ -15,7 +15,8 @@
 }
 
 .aside__p {
-  font-size: clamp(1rem, calc(1vw + 0.8rem), 1.3rem);
+  font-size: 1.1rem;
+  font-weight: 400;
   margin: 1rem 0rem;
   text-align: justify;
   text-justify: auto;
