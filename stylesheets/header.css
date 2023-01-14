@@ -79,7 +79,7 @@
 }
 @media only screen and (max-width: 992px) {
   .profile__img_flexbox {
-    flex-grow: 2;
+    flex-grow: 0.5;
   }
 }
 
@@ -90,5 +90,6 @@
 @media (max-width: 992px) {
   .profile__img {
     width: clamp(18rem, 90vw, 32rem);
+    margin-bottom: 2rem;
   }
 }
