@@ -4,7 +4,6 @@
   align-items: center;
   gap: 3vw;
   min-height: 100vh;
-  margin: 0 2rem;
 }
 @media (max-width: 992px) {
   .header__flexbox {
@@ -77,6 +76,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media only screen and (max-width: 992px) {
+  .profile__img_flexbox {
+    flex-grow: 2;
+  }
 }
 
 .profile__img {
